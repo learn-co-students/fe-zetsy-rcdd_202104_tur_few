@@ -17,4 +17,21 @@ body {
 	padding: 0 45px 20px;
 }
 
+
 /* Write all remaining styles here */
+
+.wrapper h1, .wrapper h2 {
+  color: gray;
+}
+
+.image-div a {
+  text-decoration: none;
+}
+
+.image-div img {
+  border: 3px solid #ccc;
+}
+
+.image-div img:hover {
+  border: 3px solid gray;
+}
