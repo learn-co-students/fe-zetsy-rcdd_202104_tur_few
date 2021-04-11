@@ -12,9 +12,33 @@ body {
 
 .wrapper {
 	width: 960px;
-	margin: 0 auto;
+	margin: 8px;
 	background: #fff;
 	padding: 0 45px 20px;
+	display: block;
+}
+h1 {
+	color: rgb(154, 170, 164);
+	font-family: sans-serif;
+	font-style: normal;
+	font-size: 70px;
 }
 
+h2 {
+	color: rgb(112, 127, 130);	
+}
+
+.img1 {
+	border: 8px solid rgb(154, 170, 164);
+}
+
+.img {
+	border: 2px solid rgb(154, 170, 164);
+}
+footer {
+	text-align: right;
+}
+.end {
+	font-size: 10px;
+}
 /* Write all remaining styles here */
