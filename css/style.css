@@ -1,7 +1,7 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
 /*////////// Global Styles //////////*/
 
 body {
@@ -18,3 +18,40 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	color: #96aba4;
+	font-family: 'Baskervville', serif;
+	font-size: 50px;
+	padding-top: 15px;
+}
+
+h2 {
+	color: #767d76;
+	text-align: left;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+header img{
+	border: 5px solid #9baca6;
+}
+
+article p {
+	color: #6b6b6d;
+	font-size: 17px;
+}
+
+a img {
+	border: 5px solid #cacaca;
+	transition:all 0.5s ease-out;
+}
+
+a img:hover{
+	border: 6px solid #70817b;
+}
+
+footer {
+	color: #6b6b6d;
+	text-align: right;
+}
