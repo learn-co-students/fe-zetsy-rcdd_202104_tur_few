@@ -4,17 +4,54 @@
 
 /*////////// Global Styles //////////*/
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: Open Sans, serif; 
 }
 
 .wrapper {
-	width: 960px;
+	width: 80vw;
 	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
+	padding: 20px 50px;
+	background-color: white;
+
 }
 
+.wrapper {
+	display: flex !important;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper > section {
+	width: 100%;
+}
+
+
+img {
+	border: gray 5px solid !important;
+}
+
+img:hover {
+	border: black 5px solid !important;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.zetsy {
+	font-size: 3rem;
+}
+
+.rights {
+	position: relative;
+	right: 80px;
+	text-align: right;
+}
 /* Write all remaining styles here */
